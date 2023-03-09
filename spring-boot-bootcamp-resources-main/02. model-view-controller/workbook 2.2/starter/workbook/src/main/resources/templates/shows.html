@@ -1,0 +1,43 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <title>Shows</title>
+    </head>
+    <body>
+        <h2>IMDB: Top 5 Episodes</h2>
+        <table width="100%", border="solid">
+          <tr>
+            <th>Title</th>
+            <th>Episode</th>
+            <th>Rating</th>
+          </tr>
+          <tr>
+            <td th:text= "${show1.title}" ></td>
+            <td th:text= "${show1.episode}"> </tdth:text></td>
+            <td th:text= "${show1.rating}"></td>
+          </tr>
+            <tr>
+                <td th:text= "${show2.title}" ></td>
+                <td th:text= "${show2.episode}"> </tdth:text></td>
+                <td th:text= "${show2.rating}"></td>
+            </tr>
+            <tr>
+                <td th:text= "${show3.title}" ></td>
+                <td th:text= "${show3.episode}"> </tdth:text></td>
+                <td th:text= "${show3.rating}"></td>
+            </tr>
+            <tr>
+                <td th:text= "${show4.title}" ></td>
+                <td th:text= "${show4.episode}"> </tdth:text></td>
+                <td th:text= "${show4.rating}"></td>
+            </tr>
+            <tr>
+                <td th:text= "${show5.title}" ></td>
+                <td th:text= "${show5.episode}"> </tdth:text></td>
+                <td th:text= "${show5.rating}"></td>
+            </tr>
+
+
+        </table>        
+    </body>
+</html>
